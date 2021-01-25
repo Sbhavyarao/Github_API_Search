@@ -1,0 +1,31 @@
+ .users-container {
+    padding: 6px 0px;
+ }
+
+ .search-nav {
+     position: sticky;
+     top: 0;
+ }
+
+ .search-nav input {
+    flex: 1 1 auto;
+    width: 255px !important;
+    height: 25px;
+    border-radius: 5px;
+ }
+
+ .users-container .users-list {
+     margin-top: 10px;
+ }
+
+    @media(min-width: 500px){
+        .search-nav input {
+            width: 400px;
+            height: 45px;
+         }
+         .users-container .users-list {
+            margin-top: 10px;
+            padding: 10px 50px;
+        }
+       
+    }

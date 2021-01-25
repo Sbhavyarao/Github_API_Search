@@ -1,0 +1,10 @@
+.users-list{
+    padding : 25px 15px ;
+}
+
+
+@media (min-width : 500px){
+    .users-list{
+        padding : 25px 40px
+    }
+}
